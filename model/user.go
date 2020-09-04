@@ -11,4 +11,6 @@ type User struct {
 
 	AccessKey string `gorm:"size:44;unique;not null"`
 	SecretKey string `gorm:"size:44;not null"`
+
+	DefaultChannel uint `gorm:"not null"`
 }
