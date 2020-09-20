@@ -9,5 +9,5 @@ type OAuthGitHub struct {
 	UserID uint
 	User   User
 
-	GitHubID uint64 `gorm:"unique_index;not null"`
+	GitHubID uint `gorm:"unique_index;not null"`
 }

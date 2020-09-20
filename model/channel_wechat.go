@@ -9,7 +9,7 @@ type ChannelWeChat struct {
 	UserID uint
 	User   User
 
-	UnionID   string `gorm:"type:varchar(50);unique_index;not null"`
+	UnionID   string `gorm:"type:varchar(50);unique_index"`
 	MPOpenID  string `gorm:"type:varchar(50);unique_index"`
 	WebOpenID string `gorm:"type:varchar(50);unique_index"`
 	APPOpenID string `gorm:"type:varchar(50);unique_index"`
